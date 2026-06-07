@@ -1,0 +1,28 @@
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/target/
+
+# Runtime files
+backend/uploads/
+backend/backend-run.log
+frontend/frontend-run.log
+*.log
+
+# Local env
+frontend/.env
+backend/.env
+.env
+
+# Editor and OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+Desktop.ini
+
+# Local test artifacts
+tiny-test.png
+tiny-send-test.png
