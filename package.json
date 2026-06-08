@@ -1,0 +1,12 @@
+{
+  "name": "chatsphere-full-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "powershell -ExecutionPolicy Bypass -File ./start-chatsphere.ps1",
+    "frontend": "npm --prefix frontend run dev -- --host 0.0.0.0 --port 5173 --force",
+    "install:frontend": "npm --prefix frontend install",
+    "test": "mvn test"
+  }
+}
